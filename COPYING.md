@@ -57,7 +57,7 @@ SOFTWARE.
 	- [`Asteroids/AsteroidBrownBig3.svg`](Asteroids/AsteroidBrownBig3.svg)
 	- [`Asteroids/AsteroidBrownBig4.svg`](Asteroids/AsteroidBrownBig4.svg)
 	- [`Asteroids/MeteorBrownMed1.svg`](Asteroids/MeteorBrownMed1.svg)
-	- [`Asteroids/MeteorBrownMed2.svg`](Asteroids/MeteorBrownMed3.svg)
+	- [`Asteroids/MeteorBrownMed2.svg`](Asteroids/MeteorBrownMed2.svg)
 	- [`Asteroids/MeteorBrownSmall1.svg`](Asteroids/MeteorBrownSmall1.svg)
 	- [`Asteroids/MeteorBrownSmall2.svg`](Asteroids/MeteorBrownSmall2.svg)
 	- [`Icon.svg`](Icon.svg)
