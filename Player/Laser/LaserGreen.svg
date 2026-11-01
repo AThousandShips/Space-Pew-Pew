@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="278.95 420.95 11 59">
+    <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="-819.2" x2="819.2" spreadMethod="pad" gradientTransform="matrix(0 -0.0311279296875 0.0311279296875 0 258.45 450.5)" id="gradient0">
+      <stop offset="0" stop-color="#71C937"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="-819.2" x2="819.2" spreadMethod="pad" gradientTransform="matrix(0 -0.0274658203125 0.0347900390625 0 258 444.75)" id="gradient1">
+      <stop offset="0" stop-color="#71C937" stop-opacity="0"/>
+      <stop offset="1" stop-color="#71C937"/>
+    </linearGradient>
+  </defs>
+  <path stroke="none" fill="url(#gradient0)" d="M284.45 425 Q285.05 425 285.5 425.45 285.95 425.9 285.95 426.5 L285.95 474.5 285.5 475.55 Q285.05 476 284.45 476 283.85 476 283.4 475.55 282.95 475.1 282.95 474.5 L282.95 426.5 Q282.95 425.9 283.4 425.45 283.85 425 284.45 425"/>
+  <path stroke="none" fill="url(#gradient1)" d="M284.45 425 Q283.85 425 283.4 425.45 282.95 425.9 282.95 426.5 L282.95 474.5 Q282.95 475.1 283.4 475.55 283.85 476 284.45 476 285.05 476 285.5 475.55 L285.95 474.5 285.95 426.5 Q285.95 425.9 285.5 425.45 285.05 425 284.45 425 M287.65 423.35 Q289 424.7 288.95 426.5 L288.95 474.5 Q289 476.3 287.65 477.7 286.25 479.05 284.45 479 282.65 479.05 281.3 477.7 279.9 476.3 279.95 474.5 L279.95 426.5 Q279.9 424.7 281.3 423.35 282.65 421.95 284.45 422 286.25 421.95 287.65 423.35"/>
+</svg>

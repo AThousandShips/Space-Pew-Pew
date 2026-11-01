@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bf3y2jmqc0hgk"]
 
 [ext_resource type="Script" uid="uid://begd4ah748oxf" path="res://UI/PlayerOverlay/HealthOverlay/HealthOverlay.gd" id="1_5pl0f"]
-[ext_resource type="Texture2D" uid="uid://jr8cse33r852" path="res://Player/PlayerShipOrange.png" id="1_p887o"]
+[ext_resource type="Texture2D" uid="uid://dxymav614vr0p" path="res://Player/PlayerShipOrange.svg" id="2_lbpef"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_18yuf"]
 bg_color = Color(0.336608, 0.336608, 0.336608, 1)
@@ -104,4 +104,4 @@ grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.5, 0.5)
 pivot_offset = Vector2(56, 37.5)
-texture = ExtResource("1_p887o")
+texture = ExtResource("2_lbpef")

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://mvgalbexc5hf"]
 
 [ext_resource type="PackedScene" uid="uid://oklj0tuhhc4r" path="res://Asteroids/AsteroidBase.tscn" id="1_mp6rs"]
-[ext_resource type="Texture2D" uid="uid://drutxwf6dn0e7" path="res://Asteroids/AsteroidBrownBig3.png" id="2_57w5y"]
+[ext_resource type="Texture2D" uid="uid://do5f2l2wtclgm" path="res://Asteroids/AsteroidBrownBig3.svg" id="3_45cnx"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_r6vhm"]
 radius = 47.0106
@@ -9,7 +9,7 @@ radius = 47.0106
 [node name="Asteroid" unique_id=1167788331 instance=ExtResource("1_mp6rs")]
 
 [node name="AsteroidBrownBig3" type="Sprite2D" parent="." index="0" unique_id=848486899]
-texture = ExtResource("2_57w5y")
+texture = ExtResource("3_45cnx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1" unique_id=1520543115]
 position = Vector2(-3, 1)

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="798.5 1064 15 34">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="-819.2" x2="819.2" spreadMethod="pad" gradientTransform="matrix(0 -0.02105712890625 0.02264404296875 0 806 1078.9)" id="gradient1">
+      <stop offset="0" stop-color="#99FFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6AB7EA"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="-819.2" x2="819.2" spreadMethod="pad" gradientTransform="matrix(0 0.007080078125 -0.006988525390625 0 806 1089.1)" id="gradient2">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.30196078431372547"/>
+    </linearGradient>
+  </defs>
+  <path stroke="none" fill="url(#gradient1)" d="M799.7 1087.5 L804.7 1065.95 Q806 1063.4 807.3 1065.95 L812.3 1087.5 Q812.65 1089 812.65 1090.5 812.65 1093.4 810.65 1095.4 808.7 1097.35 806 1097.45 803.3 1097.35 801.35 1095.4 799.35 1093.4 799.35 1090.5 799.35 1089 799.7 1087.5"/>
+  <path stroke="none" fill="url(#gradient2)" d="M807.6 1086.15 Q808.2 1088.75 808.25 1092.3 L808.25 1092.45 Q808.25 1093.4 807.6 1094.05 806.95 1094.75 806 1094.75 805.05 1094.75 804.4 1094.05 803.75 1093.4 803.75 1092.45 L803.75 1092.3 Q803.8 1088.75 804.4 1086.15 805.05 1083.3 806 1083.3 806.95 1083.3 807.6 1086.15"/>
+</svg>
