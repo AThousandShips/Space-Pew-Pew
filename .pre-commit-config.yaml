@@ -1,0 +1,69 @@
+default_language_version:
+  python: python3
+
+exclude: |
+  (?x)^(
+    Assets/.*|
+    Export/.*|
+    export_presets.cfg|
+    .godot/.*
+  )$
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-executables-have-shebangs
+      - id: check-shebang-scripts-are-executable
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: pretty-format-json
+        args: [--autofix, --indent, "\t", --no-sort-keys]
+      - id: trailing-whitespace
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.1
+    hooks:
+      - id: ruff-check
+        args: [--color=always]
+        files: \.py$
+        types_or: [text]
+      - id: ruff-format
+        args: [--color=always]
+        files: \.py$
+        types_or: [text]
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v2.4.1
+    hooks:
+      - id: mypy
+        files: \.py$
+        types_or: [text]
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.2
+    hooks:
+      - id: codespell
+        additional_dependencies: [tomli]
+
+# TODO: Add a custom schema for the COPYING file.
+#  - repo: https://github.com/python-jsonschema/check-jsonschema
+#    rev: 0.37.4
+#    hooks:
+#      - id: check-jsonschema
+#        files: ^Misc/COPYING.json$
+#        args: ["--schemafile", "Misc/COPYING.schema.json"]
+
+  - repo: local
+    hooks:
+      #- id: validate-copying
+      # TODO: Create hook to validate file, checking for missing files.
+
+      - id: generate-copying
+        name: generate copying
+        language: python
+        entry: python Misc/LicenseGenerator.py
+        args: [Misc/COPYING.json, COPYING.md]
+        pass_filenames: false
+        files: Misc/LicenseGenerator.py|Misc/COPYING.json|COPYING.md
